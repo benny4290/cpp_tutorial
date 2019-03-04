@@ -1,4 +1,5 @@
 #include <iostream>
+#include "replace_player_1.h"
 #include "replace_player.h"
 #include "glibber.h"
 
@@ -18,6 +19,10 @@ int main(int argc, char **argv) {
 
 
     std::string answer = machschon.Play(start_string);
+    ReplacePlayer_1 player1("","sdfjksndfsdf");
+    ReplacePlayer_1 player2("","test");
+    answer = player1.Play(answer);
+
     //answer = player2.Play(answer);
 
 
@@ -25,7 +30,10 @@ int main(int argc, char **argv) {
 
 	std::cout << mittelteil << std::endl;
 
-	std::cout << answer << std::endl;
+    std::cout << answer << std::endl;
+
+
 
     return 0;
 }
+

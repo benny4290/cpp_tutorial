@@ -11,8 +11,10 @@ add_executable(tutorial
         common_types.h
         main.cpp
         replace_player.cpp
-        replace_player.h        
         glibber.cpp
         glibber.h
+        replace_player.h
+        replace_player_1.cpp
+        replace_player_1.h
         )
 
