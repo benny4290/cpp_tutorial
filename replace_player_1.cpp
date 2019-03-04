@@ -5,7 +5,7 @@
 #include <iostream>
 
 // Constructor
-ReplacePlayer_1::ReplacePlayer_1(std::string replace, std::string replaced_by) :
+ReplacePlayer_1::ReplacePlayer_1(const std::string replace, const std::string replaced_by) :
  replace(replace),
  replaced_by(replaced_by) {}
 
